@@ -1,0 +1,65 @@
+
+/*header*/
+
+header {
+	width: 1500px;
+	height: 660px;
+	background: url(../images/header_main.jpg);
+	position: relative;	
+}
+
+header .shape {
+	width: 100%;
+	height: 100%;
+	background-color: #30696b;
+	opacity: 0.9;
+	position: absolute;
+	top: 0;
+}
+
+header nav {
+	border-bottom: 1px solid white;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header nav, header nav ul .nav-link, .welcome_blok {
+	color: white;
+}
+
+header i {
+	margin-right: 5px;
+}
+
+.company_info .company_name{
+	margin-right: 10px;
+	border-right: 1px solid white;
+	padding-right: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.phone_number, .phone_number:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/*body*/
+
+body {
+	width: 1500px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*footer*/
+
+
+footer {
+	color: #77b5b2;
+}
+
+footer h4, footer a {
+	color: #0f5f5c;
+}
