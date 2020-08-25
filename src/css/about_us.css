@@ -122,3 +122,29 @@ header {
   color: dodgerblue;
   transform: rotateY(180deg);
 }
+
+
+
+@media screen and (max-width: 1000px) {
+	header {
+		height: 400px;
+	}
+
+	.company_info {
+		font-size: 2rem;
+	}
+
+	.welcome_blok {
+		margin-top: -25px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.card {
+		margin: 20px auto;
+	}
+
+	.card h5, .card i {
+		font-size: 2.5rem;
+	}
+}

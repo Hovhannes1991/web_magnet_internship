@@ -1,5 +1,9 @@
 @import "styles.css";
 
+.company_info {
+		font-size: 2rem;
+	}
+
 
 .welcome_blok {
 	position: relative;

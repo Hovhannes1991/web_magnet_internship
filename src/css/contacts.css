@@ -147,3 +147,16 @@ footer {
 footer h4, footer a, .download_link h2 {
 	color: #0f5f5c;
 }
+
+
+
+
+@media screen and (max-width: 990px) {
+	header {
+		height: 200px;
+	}
+
+	.company_info {
+		font-size: 2rem;
+	}
+}
